@@ -1,0 +1,155 @@
+*{
+    margin: 1px; /* cria uma margen geral de 1 px*/
+    padding: 1px; /*cria uma margen interna de 1 px*/
+    box-sizing: border-box; /*Aqui ele coloca uma regra pra somar todos os tamanhos dados pra um certo objeto*/
+    
+}
+body{
+    background-color: rgb(248, 213, 213); /* cor de fundo*/
+    height: 100vh; /*aqui ele fala que vai ocupar toda a baixa*/ 
+    border-color: black 10px; /* cor da borda */
+}
+
+ 
+.barra{
+    max-width: auto; /* altura maxima automatica*/
+    margin: auto; /* margem automatica*/
+    display: flex; /*objetos em uma certo escolpo ficam 'soltas'*/
+    align-items: center; /* alinha itens no centro*/
+    justify-content: space-between; /*separa todos os itens com um mesmo intervalo de espaço*/
+    font-family: 'Courier New', Courier, monospace; /*altera a fonte*/
+}
+
+.BotaoMenu{
+    border-radius: 30%; /*curvatura da borda em 30%*/
+    padding: 10px; /*margen interna de 10px*/
+}
+
+.cor1{
+    color:beige /*cor beige*/
+}
+.cabecalho{
+    background-color: rgb(185, 201, 241); /*cor de fundo*/
+    margin: auto; /* margem automatica*/
+    padding: 1%; /*margen interna de 1%*/
+    border: 1px solid black; /* aqui passa os parametros da borda*/
+    
+}
+
+.titulo{
+    color: yellow; /* seleciona a cor amarela*/
+    text-align: center; /* alinha os textos no centro*/
+    border: 1px solid black; /*parametros da borda*/
+    padding: 1%; /* margem interna de 1%*/
+    margin: 1px; /*margem de 1px*/
+    background-color: rgb(201, 188, 77); /*cor de fundo*/
+}
+.titulo1{
+    margin-top: 5%; /*coloca uma margen a partir de cima da pagina de 5%*/
+}
+
+.paragrafo{
+    margin-top: 3px; /*margem a partir de cima de 3px*/
+    text-align: center; /*alinha textos no centro*/
+    font-family: "Roboto", sans-serif; /*muda a fonte*/
+}
+
+.titulo2{
+    font-size: 15px; /*tamanho da fonte*/
+    text-align: center; /*alinha textos no centro*/
+}
+.img1{
+    padding: 1%; /* margen interna de 1%*/
+    display: flex; /*deixa o iten solto para parametrizalos*/
+    justify-content: center; /*coloca os itens no centro da pagina*/
+    align-items: center; /*aqui centraliza os textos*/
+}
+
+.lista{
+   
+    font-size: 30px; /*tamanho da fonte*/
+    text-align: center; /*alinha os textos no meio*/
+ 
+}
+
+li{
+    padding: 6%; /*margem interna do itens de 6%*/
+}
+
+.subtitulo1{
+    padding: 3%; /*margem interna do itens de 3%*/
+
+}
+
+.container_Portifolio{
+    margin: 2%; /*margem de 2%*/
+}
+
+.Img2{
+    width: 45%; /*altura de 45% da pagina*/
+    height: auto; /*largura automatica*/
+}
+.Img3{
+    width: 45%; /*altura de 45% da pagina*/
+    height: auto; /*largura automatica*/
+    float: right; /*faz flutuar para direiita*/
+}
+
+
+.lista_portifolio{
+    display: flex; /*deixa os itens soltos*/
+    justify-content: space-between; /*coloca os itens no meio com intevalo de espaços iguais*/
+    margin: 3%; /*margen de 3%*/
+    padding: 0%; /*sem margen interna*/
+    font-size: 20px; /*tamanho da fonte*/
+}
+
+.p1{
+    text-align: center; /*alinha os textos no meio */
+    justify-content: center; /*alinha os itens no meio*/
+    margin: 40px; /*colocar uma margen de 40px*/
+    font-size: 30px; /*tamanho da fonte*/
+}
+.p2{
+    font-size: 22px; /*tamanho da fonte*/
+    text-align: center; /*alinha os textos no meio */
+    padding: 10px; /*margem interna do itens de 10%*/
+} 
+
+.container_contato
+{
+    width: 100%; /*altura 100%*/
+    height: auto; /*largura automarica*/
+    align-items: start; /*os intens vao começar da direita pra esqueda na pagina*/
+    display: flex; /*Aqui solta os elementos pra podermos alteralos*/
+    margin: 0%; /*margem de 0%*/
+    padding: 0%; /*margem interna do itens de 0%*/
+}
+
+.Input1{
+    margin-left: 10px; /*Margen a esquerda de 10px*/
+    padding: 4px; /*margem interna do itens de 4px*/
+    width: 40%; /*altura de 40%*/
+}
+
+.p3{
+    font-size: 22px; /* tamanho da fonte*/
+    text-align: left; /*alinha os textos a partir da esqueda*/
+    margin-left: 10px; /*Margen da esqueda de 10px*/
+    margin-bottom: 10px; /*margen de baixo de 10px*/
+    margin-top: 10px; /*margen de cima 10px*/
+}
+
+.Input2{
+    margin-top: 3px; /*margen de cima 3px*/
+    margin-left: 10px; /*Margen da esqueda de 10px*/
+    padding: 4px; /*margem interna do itens de 4px*/
+    width: 40%; /*altura de 40%*/
+    height: 10%; /*altura de 10%*/
+}
+
+.botao{
+    margin-left: 10px; /*margen da esqueda de 10px*/
+    width: 80px; /* largura de 80px*/
+    height: 30px; /*altura de 30px*/
+}
