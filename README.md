@@ -15,5 +15,3 @@ O nome do meu filho
 Menino: BoraBil Da Silva Lá ele
 
 Menina: Nazaré(Da novelinha lá)
-
-Sabe pq nao existe flor preta?
